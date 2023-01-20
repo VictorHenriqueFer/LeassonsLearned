@@ -89,5 +89,6 @@ header {
   border-radius: 15px;
 }
 .introcurso {
+    position: absolute;
     margin-top: 300px;
 }
