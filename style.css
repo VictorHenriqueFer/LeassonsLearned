@@ -15,6 +15,7 @@ header {
   top: 0px;
   padding: 120px 1000px 20px;
   position: fixed;
+  border-radius: 15px;
 }
 #titulo {
   font-family: inter, Helvetica, sans-serif;
@@ -23,50 +24,70 @@ header {
   margin-top: -120px;
 }
 #trybe {
-    margin-top: 40px;
-    margin-left: -990px;
-    position: absolute;
+  margin-top: 40px;
+  margin-left: -990px;
+  position: absolute;
 }
-#minha_foto{
-    position: absolute;
-    width: 200px;
-    margin-top: 180px;
-    margin-left: 10px;
-    border-radius: 20px;
+#minha_foto {
+  position: absolute;
+  width: 200px;
+  margin-top: 180px;
+  margin-left: 10px;
+  border-radius: 20px;
 }
 .containerlicoes {
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 260px;
-    padding: 20px 30px;
-    background-color: #06f3af;
-    border-radius: 30px;
-    
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 260px;
+  padding: 20px 30px;
+  background: linear-gradient(
+    105.5deg,
+    rgba(6, 243, 175, 0.9) 17.65%,
+    rgba(15, 64, 149, 0.9)
+  );
+  border-radius: 30px;
 }
 
-#licoes_aprendidas{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+#licoes_aprendidas {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .licoesfuturas {
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 500px;
-    padding: 20px 30px;
-    background-color: #4895ef;
-    border-radius: 30px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 500px;
+  padding: 20px 30px;
+  background:linear-gradient(
+    105.5deg,
+    rgba(6, 243, 175, 0.9) 17.65%,
+    rgba(15, 64, 149, 0.9)
+  );
+  border-radius: 30px;
 }
 
-#licoes_a_aprender{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+#licoes_a_aprender {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
- #namevictor {
-    position: absolute;
-    margin-top: 450px;
-    margin-left: 10px;
-    color: #14213d;
- }
- #namevictor:hover {
-    color: #4895ef;
-
- }
+#namevictor {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 10px;
+  color: #14213d;
+}
+#namevictor:hover {
+  color: #4895ef;
+}
+#rodape {
+  position: absolute;
+  padding: 100px 1000px;
+  margin-top: 600px;
+  background: linear-gradient(
+    105.5deg,
+    rgba(6, 243, 175, 0.9) 17.65%,
+    rgba(15, 64, 149, 0.9)
+  );
+  border-radius: 15px;
+}
+.introcurso {
+    margin-top: 300px;
+}
