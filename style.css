@@ -4,6 +4,7 @@
 }
 body {
   background-color: rgb(253, 251, 251);
+  -webkit-box-sizing: border-box;
 }
 header {
   background: linear-gradient(
@@ -31,4 +32,41 @@ header {
     width: 200px;
     margin-top: 180px;
     margin-left: 10px;
+    border-radius: 20px;
 }
+.containerlicoes {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 260px;
+    padding: 20px 30px;
+    background-color: #06f3af;
+    border-radius: 30px;
+    
+}
+
+#licoes_aprendidas{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.licoesfuturas {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 500px;
+    padding: 20px 30px;
+    background-color: #4895ef;
+    border-radius: 30px;
+}
+
+#licoes_a_aprender{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ #namevictor {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 10px;
+    color: #14213d;
+ }
+ #namevictor:hover {
+    color: #4895ef;
+
+ }
