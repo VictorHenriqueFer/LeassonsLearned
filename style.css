@@ -1,0 +1,34 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: rgb(253, 251, 251);
+}
+header {
+  background: linear-gradient(
+    105.5deg,
+    rgba(6, 243, 175, 0.9) 17.65%,
+    rgba(15, 64, 149, 0.9)
+  );
+  top: 0px;
+  padding: 120px 1000px 20px;
+  position: fixed;
+}
+#titulo {
+  font-family: inter, Helvetica, sans-serif;
+  top: 15px;
+  text-align: center;
+  margin-top: -120px;
+}
+#trybe {
+    margin-top: 40px;
+    margin-left: -990px;
+    position: absolute;
+}
+#minha_foto{
+    position: absolute;
+    width: 200px;
+    margin-top: 180px;
+    margin-left: 10px;
+}
